@@ -1,14 +1,14 @@
 import { initializeApp, type FirebaseApp } from 'firebase/app';
 import { getDatabase, type Database } from 'firebase/database';
 
-const firebaseConfig = {
-  apiKey: 'AIzaSyCvozIql_X82kTVTVzacRHSvjTt4sSWE_I',
-  authDomain: 'hamood-22e77.firebaseapp.com',
-  databaseURL: 'https://hamood-22e77-default-rtdb.asia-southeast1.firebasedatabase.app',
-  projectId: 'hamood-22e77',
-  storageBucket: 'hamood-22e77.firebasestorage.app',
-  messagingSenderId: '606263590191',
-  appId: '1:606263590191:web:06e9239767b47378d775da',
+  apiKey: "AIzaSyD16ZOXNMJ-t9lvgxLYFynquIpJW2JnHEQ",
+  authDomain: "hamoodludo-5ee97.firebaseapp.com",
+  databaseURL: "https://hamoodludo-5ee97-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "hamoodludo-5ee97",
+  storageBucket: "hamoodludo-5ee97.appspot.com",
+  messagingSenderId: "898460746155",
+  appId: "1:898460746155:web:8d731b6aca6c9c59m312ee"
+
 };
 
 const isConfigured = Boolean(firebaseConfig.apiKey && firebaseConfig.databaseURL);
